@@ -34,7 +34,7 @@ namespace QA_A2_Group9
 
             // Check if the product name is null or empty
             if (string.IsNullOrWhiteSpace(productName)) {
-                throw new ArgumentNullException("", "Product Name is null or empty");
+                throw new ArgumentNullException("", "Product Name cannot be null or empty");
             }
 
             // Check if the price is within the range of 5 to 5000
@@ -72,7 +72,7 @@ namespace QA_A2_Group9
             }
 
             if (this.quantity + qty > 500000) {
-                throw new ArgumentOutOfRangeException("", "Quantity is out of the range");
+                throw new ArgumentOutOfRangeException("", "Quantity cannot be above 500000.");
             }
 
             this.quantity += qty;
@@ -88,7 +88,7 @@ namespace QA_A2_Group9
                 throw new ArgumentOutOfRangeException("", "Decrement must be positive.");
             }
             if (this.quantity - qty < 5) {
-                throw new ArgumentOutOfRangeException("", "Quantity is out of the range");
+                throw new ArgumentOutOfRangeException("", "Quantity cannot be below 5.");
             }
 
             this.quantity -= qty;

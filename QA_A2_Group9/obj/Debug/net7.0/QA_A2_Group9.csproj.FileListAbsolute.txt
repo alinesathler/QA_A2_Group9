@@ -26,3 +26,4 @@ C:\Users\sathl\OneDrive\Documentos\Classes\Term04\PROG2070\Assignments\Assignmen
 C:\Users\sathl\OneDrive\Documentos\Classes\Term04\PROG2070\Assignments\Assignment02\QA_A2_Group9\QA_A2_Group9\obj\Debug\net7.0\QA_A2_Group9.pdb
 C:\Users\sathl\OneDrive\Documentos\Classes\Term04\PROG2070\Assignments\Assignment02\QA_A2_Group9\QA_A2_Group9\obj\Debug\net7.0\QA_A2_Group9.genruntimeconfig.cache
 C:\Users\sathl\OneDrive\Documentos\Classes\Term04\PROG2070\Assignments\Assignment02\QA_A2_Group9\QA_A2_Group9\obj\Debug\net7.0\ref\QA_A2_Group9.dll
+C:\Users\sathl\OneDrive\Documentos\Classes\Term04\PROG2070\Assignments\Assignment02\QA_A2_Group9\QA_A2_Group9\obj\Debug\net7.0\QA_A2_Group9.sourcelink.json

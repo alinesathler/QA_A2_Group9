@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "QA_A2_Group9/1.0.0": {
+        "runtime": {
+          "QA_A2_Group9.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "QA_A2_Group9/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
