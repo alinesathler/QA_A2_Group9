@@ -32,8 +32,6 @@
             } catch (Exception ex) {
                 Console.WriteLine($"Error creating product: {ex.Message}");
             }
-
-
         }
     }
 }

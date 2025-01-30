@@ -16,6 +16,15 @@ namespace QA_A2_Group9
         #endregion
 
         #region Constructors
+        /// <summary>
+        /// Constructor for the Product class
+        /// </summary>
+        /// <param name="productId"></param>
+        /// <param name="productName"></param>
+        /// <param name="price"></param>
+        /// <param name="quantity"></param>
+        /// <exception cref="ArgumentOutOfRangeException"></exception>
+        /// <exception cref="ArgumentNullException"></exception>
         public Product(int productId, string productName, decimal price,int quantity)
         {
             // Check if the product ID is within the range of 5 to 50000
