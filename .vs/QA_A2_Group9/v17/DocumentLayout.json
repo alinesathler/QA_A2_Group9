@@ -1,21 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\sathl\\OneDrive\\Documentos\\Classes\\Term04\\PROG2070\\Assignments\\Assignment02\\QA_A2_Group9\\",
+  "WorkspaceRootPath": "C:\\Users\\lenab\\source\\repos\\QA_A2_Group9\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{937A1096-4704-492D-B249-83A6EBD45607}|ProductsUnitTests\\ProductsUnitTests.csproj|c:\\users\\sathl\\onedrive\\documentos\\classes\\term04\\prog2070\\assignments\\assignment02\\qa_a2_group9\\productsunittests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{937A1096-4704-492D-B249-83A6EBD45607}|ProductsUnitTests\\ProductsUnitTests.csproj|c:\\users\\lenab\\source\\repos\\qa_a2_group9\\productsunittests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{937A1096-4704-492D-B249-83A6EBD45607}|ProductsUnitTests\\ProductsUnitTests.csproj|solutionrelative:productsunittests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3E81797-AC2A-4271-AB06-4DD990E2257E}|QA_A2_Group9\\QA_A2_Group9.csproj|c:\\users\\sathl\\onedrive\\documentos\\classes\\term04\\prog2070\\assignments\\assignment02\\qa_a2_group9\\qa_a2_group9\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B3E81797-AC2A-4271-AB06-4DD990E2257E}|QA_A2_Group9\\QA_A2_Group9.csproj|c:\\users\\lenab\\source\\repos\\qa_a2_group9\\qa_a2_group9\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3E81797-AC2A-4271-AB06-4DD990E2257E}|QA_A2_Group9\\QA_A2_Group9.csproj|solutionrelative:qa_a2_group9\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3E81797-AC2A-4271-AB06-4DD990E2257E}|QA_A2_Group9\\QA_A2_Group9.csproj|c:\\users\\sathl\\onedrive\\documentos\\classes\\term04\\prog2070\\assignments\\assignment02\\qa_a2_group9\\qa_a2_group9\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B3E81797-AC2A-4271-AB06-4DD990E2257E}|QA_A2_Group9\\QA_A2_Group9.csproj|c:\\users\\lenab\\source\\repos\\qa_a2_group9\\qa_a2_group9\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3E81797-AC2A-4271-AB06-4DD990E2257E}|QA_A2_Group9\\QA_A2_Group9.csproj|solutionrelative:qa_a2_group9\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{937A1096-4704-492D-B249-83A6EBD45607}|ProductsUnitTests\\ProductsUnitTests.csproj|c:\\users\\sathl\\onedrive\\documentos\\classes\\term04\\prog2070\\assignments\\assignment02\\qa_a2_group9\\productsunittests\\productsunittests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{937A1096-4704-492D-B249-83A6EBD45607}|ProductsUnitTests\\ProductsUnitTests.csproj|c:\\users\\lenab\\source\\repos\\qa_a2_group9\\productsunittests\\productsunittests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{937A1096-4704-492D-B249-83A6EBD45607}|ProductsUnitTests\\ProductsUnitTests.csproj|solutionrelative:productsunittests\\productsunittests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
@@ -26,42 +26,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ProductsUnitTests",
-              "DocumentMoniker": "C:\\Users\\sathl\\OneDrive\\Documentos\\Classes\\Term04\\PROG2070\\Assignments\\Assignment02\\QA_A2_Group9\\ProductsUnitTests\\ProductsUnitTests.csproj",
+              "Title": "ProductsUnitTests.csproj",
+              "DocumentMoniker": "C:\\Users\\lenab\\Source\\Repos\\QA_A2_Group9\\ProductsUnitTests\\ProductsUnitTests.csproj",
               "RelativeDocumentMoniker": "ProductsUnitTests\\ProductsUnitTests.csproj",
-              "ToolTip": "C:\\Users\\sathl\\OneDrive\\Documentos\\Classes\\Term04\\PROG2070\\Assignments\\Assignment02\\QA_A2_Group9\\ProductsUnitTests\\ProductsUnitTests.csproj",
+              "ToolTip": "C:\\Users\\lenab\\Source\\Repos\\QA_A2_Group9\\ProductsUnitTests\\ProductsUnitTests.csproj",
               "RelativeToolTip": "ProductsUnitTests\\ProductsUnitTests.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-01-30T01:35:35.065Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-30T01:35:35.065Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "UnitTest1.cs",
-              "DocumentMoniker": "C:\\Users\\sathl\\OneDrive\\Documentos\\Classes\\Term04\\PROG2070\\Assignments\\Assignment02\\QA_A2_Group9\\ProductsUnitTests\\UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\lenab\\source\\repos\\QA_A2_Group9\\ProductsUnitTests\\UnitTest1.cs",
               "RelativeDocumentMoniker": "ProductsUnitTests\\UnitTest1.cs",
-              "ToolTip": "C:\\Users\\sathl\\OneDrive\\Documentos\\Classes\\Term04\\PROG2070\\Assignments\\Assignment02\\QA_A2_Group9\\ProductsUnitTests\\UnitTest1.cs",
-              "RelativeToolTip": "ProductsUnitTests\\UnitTest1.cs",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAmwIEAAAAkAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\lenab\\source\\repos\\QA_A2_Group9\\ProductsUnitTests\\UnitTest1.cs*",
+              "RelativeToolTip": "ProductsUnitTests\\UnitTest1.cs*",
+              "ViewState": "AgIAAN4AAAAAAAAAAAAswPUAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-30T01:21:49.894Z",
               "EditorCaption": ""
@@ -70,11 +61,11 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\sathl\\OneDrive\\Documentos\\Classes\\Term04\\PROG2070\\Assignments\\Assignment02\\QA_A2_Group9\\QA_A2_Group9\\Product.cs",
+              "DocumentMoniker": "C:\\Users\\lenab\\source\\repos\\QA_A2_Group9\\QA_A2_Group9\\Product.cs",
               "RelativeDocumentMoniker": "QA_A2_Group9\\Product.cs",
-              "ToolTip": "C:\\Users\\sathl\\OneDrive\\Documentos\\Classes\\Term04\\PROG2070\\Assignments\\Assignment02\\QA_A2_Group9\\QA_A2_Group9\\Product.cs",
+              "ToolTip": "C:\\Users\\lenab\\source\\repos\\QA_A2_Group9\\QA_A2_Group9\\Product.cs",
               "RelativeToolTip": "QA_A2_Group9\\Product.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAowFoAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAYwEMAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-29T23:51:36.901Z",
               "EditorCaption": ""
@@ -83,14 +74,13 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\sathl\\OneDrive\\Documentos\\Classes\\Term04\\PROG2070\\Assignments\\Assignment02\\QA_A2_Group9\\QA_A2_Group9\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\lenab\\source\\repos\\QA_A2_Group9\\QA_A2_Group9\\Program.cs",
               "RelativeDocumentMoniker": "QA_A2_Group9\\Program.cs",
-              "ToolTip": "C:\\Users\\sathl\\OneDrive\\Documentos\\Classes\\Term04\\PROG2070\\Assignments\\Assignment02\\QA_A2_Group9\\QA_A2_Group9\\Program.cs",
+              "ToolTip": "C:\\Users\\lenab\\source\\repos\\QA_A2_Group9\\QA_A2_Group9\\Program.cs",
               "RelativeToolTip": "QA_A2_Group9\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T23:51:36.933Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-29T23:51:36.933Z"
             }
           ]
         }

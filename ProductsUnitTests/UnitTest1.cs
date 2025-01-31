@@ -131,6 +131,120 @@ namespace ProductsUnitTests {
         #endregion
 
         #region Lena Test Section
+        ///<summary>
+        ///Test that creating a product with a price below the allowed minimum (5) throws an exception
+        ///This ensures that price restrictions are respected
+        ///</summary>
+        ///<param name="price"></param>
+        [TestCase(4)]
+        public void Constructor_PriceUnderMinimum_ShouldThrowException(int price)
+        {
+            // Arrange
+            _product = null;
+
+            // Act
+            ArgumentOutOfRangeException ex = Assert.Throws<ArgumentOutOfRangeException>(() => {
+                _product = new Product(50, "Oranges", price, 75);
+            });
+
+            // Assert
+            Assert.That(ex.Message, Does.Contain("Price is out of the range"));
+        }
+
+        ///<summary>
+        ///Test that creating a product with a quantity below the allowed minimum (5) throws an exception
+        ///This ensures that quantity restrictions are respected
+        ///</summary>
+        ///<param name="stock"></param>
+        [TestCase(4)]
+        public void Constructor_QtyUnderMinimum_ShouldThrowException(int stock) {
+            // Arrange
+            _product = null;
+
+            // Act
+            ArgumentOutOfRangeException ex = Assert.Throws<ArgumentOutOfRangeException>(() => {
+                _product = new Product(34, "Games console", 400.50m, stock);
+            });
+
+            // Assert
+            Assert.That(ex.Message, Does.Contain("Quantity is out of the range"));
+        }
+
+        ///<summary>
+        ///Test that increasing stock by a negative amount throws an exception
+        ///This ensures that input is being validated correctly
+        ///</summary>
+        ///<param name="amount"
+        [TestCase(-1)]
+        public void IncreaseStock_NegativeIncrease_ShouldThrowException(int amount)
+        {
+            // Arrange
+            _product = new Product(150, "Shoes", 50m, 3500);
+
+            // Act
+            ArgumentOutOfRangeException ex = Assert.Throws<ArgumentOutOfRangeException>(() => {
+                _product.IncreaseStock(amount);
+            });
+
+            // Assert
+            Assert.That(ex.Message, Does.Contain("Increment must be positive."));
+        }
+
+        ///<summary>
+        ///Test that creating a product with a null name throws an exception
+        ///This ensures that input is being validated correctly
+        ///</summary>
+        ///<param name="productName"></param>
+        [TestCase("")]
+        public void Constructor_ProductNameNull_ShouldThrowException(string productName)
+        {
+            // Arrange
+            _product = null;
+
+            // Act
+            ArgumentNullException ex = Assert.Throws<ArgumentNullException>(() => {
+                _product = new Product(700, productName, 9.99m, 40);
+            });
+
+            // Assert
+            Assert.That(ex.Message, Does.Contain("Product Name cannot be null or empty"));
+        }
+        ///<summary>
+        ///Test that creating a product with a valid price does not throw an exception
+        ///</summary>
+        ///<param name="price"
+        [TestCase(50)]
+        public void Constructor_ValidPrice_ShouldNotThrowException(int price)
+        {
+            // Arrange
+            _product = null;
+
+            // Act
+            
+                _product = new Product(50, "Oranges", price, 75);
+           
+
+            // Assert
+            Assert.That(_product!=null&&price>5&&price<50000);
+        }
+        ///<summary>
+        ///Test that creating a product with a valid quantity does not throw an exception
+        ///</summary>
+        ///<param name="price"
+        [TestCase(700)]
+        public void Constructor_ValidQuantity_ShouldNotThrowException(int quantity)
+        {
+            // Arrange
+            _product = null;
+
+            // Act
+
+            _product = new Product(50, "Oranges", 100, quantity);
+
+
+            // Assert
+            Assert.That(_product != null && quantity > 5 && quantity < 50000);
+        }
         #endregion
     }
 }
