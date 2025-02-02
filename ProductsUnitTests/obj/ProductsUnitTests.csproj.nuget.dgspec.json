@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sathl\\OneDrive\\Documentos\\Classes\\Term04\\PROG2070\\Assignments\\Assignment02\\QA_A2_Group9\\ProductsUnitTests\\ProductsUnitTests.csproj": {}
+    "C:\\Users\\Jahanvi\\Desktop\\QA-Assignment2_Group-9\\QA_A2_Group9\\ProductsUnitTests\\ProductsUnitTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sathl\\OneDrive\\Documentos\\Classes\\Term04\\PROG2070\\Assignments\\Assignment02\\QA_A2_Group9\\ProductsUnitTests\\ProductsUnitTests.csproj": {
+    "C:\\Users\\Jahanvi\\Desktop\\QA-Assignment2_Group-9\\QA_A2_Group9\\ProductsUnitTests\\ProductsUnitTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sathl\\OneDrive\\Documentos\\Classes\\Term04\\PROG2070\\Assignments\\Assignment02\\QA_A2_Group9\\ProductsUnitTests\\ProductsUnitTests.csproj",
+        "projectUniqueName": "C:\\Users\\Jahanvi\\Desktop\\QA-Assignment2_Group-9\\QA_A2_Group9\\ProductsUnitTests\\ProductsUnitTests.csproj",
         "projectName": "ProductsUnitTests",
-        "projectPath": "C:\\Users\\sathl\\OneDrive\\Documentos\\Classes\\Term04\\PROG2070\\Assignments\\Assignment02\\QA_A2_Group9\\ProductsUnitTests\\ProductsUnitTests.csproj",
-        "packagesPath": "C:\\Users\\sathl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sathl\\OneDrive\\Documentos\\Classes\\Term04\\PROG2070\\Assignments\\Assignment02\\QA_A2_Group9\\ProductsUnitTests\\obj\\",
+        "projectPath": "C:\\Users\\Jahanvi\\Desktop\\QA-Assignment2_Group-9\\QA_A2_Group9\\ProductsUnitTests\\ProductsUnitTests.csproj",
+        "packagesPath": "C:\\Users\\Jahanvi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jahanvi\\Desktop\\QA-Assignment2_Group-9\\QA_A2_Group9\\ProductsUnitTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\sathl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jahanvi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -33,8 +33,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\sathl\\OneDrive\\Documentos\\Classes\\Term04\\PROG2070\\Assignments\\Assignment02\\QA_A2_Group9\\QA_A2_Group9\\QA_A2_Group9.csproj": {
-                "projectPath": "C:\\Users\\sathl\\OneDrive\\Documentos\\Classes\\Term04\\PROG2070\\Assignments\\Assignment02\\QA_A2_Group9\\QA_A2_Group9\\QA_A2_Group9.csproj"
+              "C:\\Users\\Jahanvi\\Desktop\\QA-Assignment2_Group-9\\QA_A2_Group9\\QA_A2_Group9\\QA_A2_Group9.csproj": {
+                "projectPath": "C:\\Users\\Jahanvi\\Desktop\\QA-Assignment2_Group-9\\QA_A2_Group9\\QA_A2_Group9\\QA_A2_Group9.csproj"
               }
             }
           }
@@ -48,8 +48,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net7.0": {
@@ -92,24 +91,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\sathl\\OneDrive\\Documentos\\Classes\\Term04\\PROG2070\\Assignments\\Assignment02\\QA_A2_Group9\\QA_A2_Group9\\QA_A2_Group9.csproj": {
+    "C:\\Users\\Jahanvi\\Desktop\\QA-Assignment2_Group-9\\QA_A2_Group9\\QA_A2_Group9\\QA_A2_Group9.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sathl\\OneDrive\\Documentos\\Classes\\Term04\\PROG2070\\Assignments\\Assignment02\\QA_A2_Group9\\QA_A2_Group9\\QA_A2_Group9.csproj",
+        "projectUniqueName": "C:\\Users\\Jahanvi\\Desktop\\QA-Assignment2_Group-9\\QA_A2_Group9\\QA_A2_Group9\\QA_A2_Group9.csproj",
         "projectName": "QA_A2_Group9",
-        "projectPath": "C:\\Users\\sathl\\OneDrive\\Documentos\\Classes\\Term04\\PROG2070\\Assignments\\Assignment02\\QA_A2_Group9\\QA_A2_Group9\\QA_A2_Group9.csproj",
-        "packagesPath": "C:\\Users\\sathl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sathl\\OneDrive\\Documentos\\Classes\\Term04\\PROG2070\\Assignments\\Assignment02\\QA_A2_Group9\\QA_A2_Group9\\obj\\",
+        "projectPath": "C:\\Users\\Jahanvi\\Desktop\\QA-Assignment2_Group-9\\QA_A2_Group9\\QA_A2_Group9\\QA_A2_Group9.csproj",
+        "packagesPath": "C:\\Users\\Jahanvi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jahanvi\\Desktop\\QA-Assignment2_Group-9\\QA_A2_Group9\\QA_A2_Group9\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\sathl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jahanvi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -136,8 +135,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net7.0": {
@@ -158,7 +156,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
         }
       }
     }

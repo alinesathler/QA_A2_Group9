@@ -128,6 +128,98 @@ namespace ProductsUnitTests {
         #endregion
 
         #region Jahanvi Test Section
+        /// <summary>
+        /// Test that creating a product with ID below minimum (5) throws exception
+        /// Ensures ProductId lower boundary validation
+        /// </summary>
+        [TestCase(4)]
+        public void Constructor_ProductIdBelowMinimum_ShouldThrowException(int productId)
+        {
+            // Arrange & Act
+            var ex = Assert.Throws<ArgumentOutOfRangeException>(() =>
+                new Product(productId, "Test Product", 10m, 50));
+
+            // Assert
+            Assert.That(ex.Message, Does.Contain("ProductId is out of the range"));
+        }
+
+        /// <summary>
+        /// Test that valid ProductId (within 5-50000) creates product successfully
+        /// Verifies proper acceptance of valid IDs
+        /// </summary>
+        [TestCase(100)]
+        public void Constructor_ValidProductId_ShouldCreateProduct(int productId)
+        {
+            // Arrange & Act
+            var product = new Product(productId, "Valid Product", 50m, 100);
+
+            // Assert
+            Assert.That(product.ToString(), Does.Contain($"Product ID: {productId}"));
+        }
+
+        /// <summary>
+        /// Test that valid product name creates product without exceptions
+        /// Confirms non-empty names are accepted
+        /// </summary>
+        [TestCase("Valid Product Name")]
+        public void Constructor_ValidProductName_ShouldCreateProduct(string productName)
+        {
+            // Arrange & Act
+            var product = new Product(100, productName, 50m, 100);
+
+            // Assert
+            Assert.That(product.ToString(), Does.Contain($"Name: {productName}"));
+        }
+
+        /// <summary>
+        /// Test that valid stock increase updates quantity correctly
+        /// Verifies proper inventory management
+        /// </summary>
+        [Test]
+        public void IncreaseStock_ValidAmount_ShouldUpdateQuantity()
+        {
+            // Arrange
+            var product = new Product(100, "Test Product", 50m, 100);
+
+            // Act
+            product.IncreaseStock(50);
+
+            // Assert
+            Assert.That(product.ToString(), Does.Contain("Quantity: 150"));
+        }
+
+        /// <summary>
+        /// Test that valid stock decrease updates quantity correctly
+        /// Ensures proper inventory deduction
+        /// </summary>
+        [Test]
+        public void DecreaseStock_ValidAmount_ShouldUpdateQuantity()
+        {
+            // Arrange
+            var product = new Product(100, "Test Product", 50m, 100);
+
+            // Act
+            product.DecreaseStock(50);
+
+            // Assert
+            Assert.That(product.ToString(), Does.Contain("Quantity: 50"));
+        }
+
+        /// <summary>
+        /// Test that negative decrement amount throws exception
+        /// Prevents invalid stock reductions
+        /// </summary>
+        [TestCase(-5)]
+        public void DecreaseStock_NegativeAmount_ShouldThrowException(int amount)
+        {
+            // Arrange
+            var product = new Product(100, "Test Product", 50m, 100);
+
+            // Act & Assert
+            var ex = Assert.Throws<ArgumentOutOfRangeException>(() =>
+                product.DecreaseStock(amount));
+            Assert.That(ex.Message, Does.Contain("Decrement must be positive."));
+        }
         #endregion
 
         #region Lena Test Section

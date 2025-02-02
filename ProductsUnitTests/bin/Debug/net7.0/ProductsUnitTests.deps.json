@@ -319,10 +319,7 @@
       "System.Reflection.Metadata/1.6.0": {},
       "QA_A2_Group9/1.0.0": {
         "runtime": {
-          "QA_A2_Group9.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "QA_A2_Group9.dll": {}
         }
       }
     }

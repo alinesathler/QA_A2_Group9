@@ -3,3 +3,9 @@
 ################################################################################
 
 /.vs/QA_A2_Group9/FileContentIndex/939b1b30-d633-4d53-8e6c-96498bec4aa1.vsidx
+# Visual Studio files
+.vs/
+bin/
+obj/
+*.user
+*.suo
